@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/credit-card/static/css/main.88cf67c7.css",
+    "main.js": "/credit-card/static/js/main.16f6d166.js",
+    "static/js/787.7b8caa9c.chunk.js": "/credit-card/static/js/787.7b8caa9c.chunk.js",
+    "static/media/cvv.png": "/credit-card/static/media/cvv.312d4bf2740102a6f039.png",
+    "index.html": "/credit-card/index.html",
+    "main.88cf67c7.css.map": "/credit-card/static/css/main.88cf67c7.css.map",
+    "main.16f6d166.js.map": "/credit-card/static/js/main.16f6d166.js.map",
+    "787.7b8caa9c.chunk.js.map": "/credit-card/static/js/787.7b8caa9c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.88cf67c7.css",
+    "static/js/main.16f6d166.js"
+  ]
+}
