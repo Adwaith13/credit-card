@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Delius+Unicase&family=Inter:wght@300&family=Montserrat:wght@500&family=Open+Sans&family=Poppins&family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+}
+
+.div{
+    display: flex;
+}
+.card-area{
+    width: 500px;
+    height: 100vh;
+    padding-left: 150px;
+    background: linear-gradient( #041F1BFA, #380C4A, #3B0E46, #3D0F42, #441436, #33254E, #2B2D59, #292654, #271F4F, #240D37, #22052D, #22052D, #22052D, #22052D);
+    background: radial-gradient( #4E1A45 20%, #45142B 20%, #45142B 20%, #3D0E12 20%, #3D0D0F 20%, #3D0D0F 20%,);
+}
+.cards{
+    width: 447px;
+    height: 246px;
+    margin-top: 80px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    background: linear-gradient(to top right, #620594, #623FF2, #5E37EC, #CF56BD);
+    position: absolute;
+}
+.cvv-img{
+    padding-top: 40px;
+    margin-left: 20px;
+}
+form{
+    background-color: #D9D9D9;
+    width: 70vw;
+    padding-left: 350px;
+    padding-top: 170px;
+}
+.card-name{
+    padding: 10px 100px;
+    margin-top: 10px;
+    font-family: 'Inter',sans-serif;
+    border: 1px solid grey;
+    font-size: 15px;
+    letter-spacing: 1.8px;
+    border-radius: 6px;
+}
+.card-num{
+    padding: 10px 100px;
+    margin-top: 10px;
+    font-family: 'Inter',sans-serif;
+    border: 1px solid grey;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    border-radius: 6px;
+}
+
+.mm,.yy{
+    width: 85px;
+    height: 40px;
+    margin-right: 15px;
+    margin-top: 10px;
+    font-family: 'Inter',sans-serif;
+    border: 1px solid grey;
+    font-size: 15px;
+    letter-spacing: 1px;
+    border-radius: 6px;
+}
+
+.cvc{
+    width: 185px;
+    height: 40px;
+    font-family: 'Inter',sans-serif;
+    border: 1px solid grey;
+    font-size: 15px;
+    letter-spacing: 1px;
+    border-radius: 6px;
+}
+.error{
+    font-family: 'Inter',sans-serif;
+    color: #F81212;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.cvc-error{
+    margin-left: 180px;
+    padding: 2px 2px;
+    font-family: 'Inter',sans-serif;
+    color: #F81212;
+    font-size: 15px;
+    font-weight: bolder;
+}
+button{
+    font-family: 'Inter',sans-serif;
+    background-color: #220930;
+    margin-top: 20px;
+    color: white;
+    font-size: 16px;
+    padding: 15px 163px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.label{
+    color: #404040;
+    font-family: 'Roboto',sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.86px;
+    padding: 2px 1.8px;
+}
+.cvc-label{
+    margin-left: 65px;
+    color: #404040;
+    font-family: 'Roboto',sans-serif;
+}
+
+.number-print{
+    color: white;
+    font-family: 'Inter',sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    letter-spacing: 7px;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.name-print{
+    color: white;
+    font-family: 'Roboto',sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+.month-print{
+    color: white;
+    font-family: 'Roboto',sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-left: 200px;
+}
+.year-print{
+    color: white;
+    font-family: 'Roboto',sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.cvc-print{
+    color: white;
+    font-family: 'Roboto',sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-top: 238px;
+    margin-left: 30px;
+    position: absolute;
+}
